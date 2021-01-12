@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+}
+
+.card {
+  width: 33rem;
+  height: 51.4rem;
+  background-color: white;
+  border-radius: 1rem;
+}
