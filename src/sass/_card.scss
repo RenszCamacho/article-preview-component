@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: $background;
+  font-size: 1.3rem;
 }
 
 .card {
@@ -13,4 +14,38 @@
   background-color: white;
   border-radius: 1rem;
   margin: 7rem 0;
+  overflow: hidden;
+
+  &__header {
+    height: 20rem;
+  }
+
+  &__img {
+    object-fit: cover;
+    height: inherit;
+  }
+
+  &__body {
+    padding: 3.1rem;
+  }
+
+  &__title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: $primary;
+    margin-bottom: 1.4rem;
+    line-height: 23px;
+  }
+
+  &__description {
+    color: $secondary;
+    font-size: 1.39rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    margin-bottom: 3.8rem;
+  }
+
+  &__footer {
+    display: flex;
+  }
 }
