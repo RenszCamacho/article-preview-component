@@ -27,6 +27,7 @@
 
   &__body {
     padding: 3.1rem;
+    padding-bottom: 1.5rem;
   }
 
   &__title {
@@ -47,5 +48,48 @@
 
   &__footer {
     display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__item:nth-child(2) {
+    margin-left: 1.2rem;
+  }
+
+  &__item:last-child {
+    margin-left: auto;
+  }
+
+  &__footerImg {
+    border-radius: 50%;
+    width: 4.3rem;
+  }
+
+  &__name,
+  &__date {
+    display: block;
+  }
+
+  &__name {
+    color: $primary;
+    font-weight: 700;
+    font-size: 1.39rem;
+    margin-bottom: 0.8rem;
+  }
+
+  &__date {
+    color: $success;
+    word-spacing: 0.3rem;
+  }
+
+  &__btn {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: $background;
   }
 }
