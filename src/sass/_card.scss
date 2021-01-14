@@ -16,19 +16,19 @@
   margin: 7rem 0;
   overflow: hidden;
 
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   bottom: 0;
-  //   left: 0;
-  //   height: 7rem;
-  //   width: inherit;
-  //   background-color: $primary;
-  //   display: none;
-  // }
+  @include rwd(large) {
+    width: 731px;
+    height: 281px;
+    display: flex;
+    box-shadow: 35px 55px 32px -13px rgb(220, 228, 234);
+  }
 
   &__header {
     height: 20rem;
+
+    @include rwd(large) {
+      height: inherit;
+    }
   }
 
   &__img {
@@ -112,6 +112,7 @@
 
   &__share {
     display: none;
+    animation: fadeIn 350ms;
   }
 }
 
@@ -119,7 +120,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 6.4rem;
+  height: 7.4rem;
   width: inherit;
   background-color: $primary;
   display: block;
@@ -153,5 +154,15 @@
     padding: 1rem;
     background-color: $secondary;
     cursor: pointer;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
