@@ -21,6 +21,7 @@
     height: 281px;
     display: flex;
     box-shadow: 35px 55px 32px -13px rgb(220, 228, 234);
+    overflow: unset;
   }
 
   &__header {
@@ -34,6 +35,11 @@
   &__img {
     object-fit: cover;
     height: inherit;
+
+    @include rwd(large) {
+      border-radius: 1rem 0 0 1rem;
+      object-fit: fill;
+    }
   }
 
   &__body {
@@ -125,6 +131,15 @@
   background-color: $primary;
   display: block;
 
+  @include rwd(large) {
+    width: 25rem;
+    height: 6rem;
+    left: unset;
+    right: -7rem;
+    bottom: 9rem;
+    border-radius: 1rem;
+  }
+
   &__list {
     display: flex;
     align-items: center;
@@ -139,6 +154,10 @@
 
   &__item:last-child {
     margin-left: auto;
+
+    @include rwd(large) {
+      display: none;
+    }
   }
 
   &__description {
