@@ -145,11 +145,19 @@
     align-items: center;
     height: inherit;
     padding: 0% 2rem;
+
+    @include rwd(large) {
+      justify-content: center;
+    }
   }
 
   &__item {
     list-style: none;
     margin: 0% 1rem;
+
+    @include rwd(large) {
+      margin: 0% 0.5rem;
+    }
   }
 
   &__item:last-child {
