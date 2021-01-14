@@ -109,6 +109,10 @@
       opacity: 0.8;
     }
   }
+
+  &__share {
+    display: none;
+  }
 }
 
 .active {
@@ -118,7 +122,7 @@
   height: 6.4rem;
   width: inherit;
   background-color: $primary;
-  // display: none;
+  display: block;
 
   &__list {
     display: flex;
@@ -142,11 +146,12 @@
     letter-spacing: 5px;
   }
 
-  &__link--share {
+  &__btn {
     border-radius: 50%;
     border: none;
     outline: none;
     padding: 1rem;
     background-color: $secondary;
+    cursor: pointer;
   }
 }
