@@ -45,6 +45,13 @@
   &__body {
     padding: 3.1rem;
     padding-bottom: 1.5rem;
+
+    @include rwd(large) {
+      padding: 3.1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 
   &__title {
@@ -61,6 +68,10 @@
     font-weight: 400;
     line-height: 2.1rem;
     margin-bottom: 3.8rem;
+
+    @include rwd(large) {
+      margin-bottom: 2.8rem;
+    }
   }
 
   &__footer {
@@ -131,12 +142,24 @@
   background-color: $primary;
   display: block;
 
+  &::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-color: inherit;
+    position: absolute;
+    bottom: -17%;
+    left: 53%;
+    transform: translateX(-50%) rotate(45deg);
+    // border-left: 2px solid ;
+  }
+
   @include rwd(large) {
     width: 25rem;
     height: 6rem;
     left: unset;
     right: -7rem;
-    bottom: 9rem;
+    bottom: 11rem;
     border-radius: 1rem;
   }
 
