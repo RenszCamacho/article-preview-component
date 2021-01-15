@@ -74,7 +74,7 @@
     }
   }
 
-  &__footer {
+  &__list {
     display: flex;
     align-items: center;
   }
@@ -91,7 +91,7 @@
     margin-left: auto;
   }
 
-  &__footerImg {
+  &__listImg {
     border-radius: 50%;
     width: 4.3rem;
   }
@@ -127,7 +127,7 @@
     }
   }
 
-  &__share {
+  &__footer {
     display: none;
     animation: fadeIn 350ms;
   }
@@ -151,7 +151,6 @@
     bottom: -17%;
     left: 53%;
     transform: translateX(-50%) rotate(45deg);
-    // border-left: 2px solid ;
   }
 
   @include rwd(large) {
@@ -187,7 +186,10 @@
     margin-left: auto;
 
     @include rwd(large) {
-      display: none;
+      // display: none;
+      position: absolute;
+      bottom: -68px;
+      right: 97px;
     }
   }
 
