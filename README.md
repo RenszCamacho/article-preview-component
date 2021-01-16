@@ -8,7 +8,7 @@
 
 # Article Preview Component
 
-- This is a Frontend Mentor Challenge, newbie-level. A cool challenge that I've really enjoyed it. Using Css Flex-box and some Css animation. Pure HTML, CSS.
+- This is a Frontend Mentor Challenge, newbie-level. A cool challenge that I've really enjoyed it. Using Css Flex-box and some Css animation. Pure HTML, CSS and Js.
 
 ### Clone the repository
 
