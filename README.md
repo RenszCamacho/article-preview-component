@@ -1,6 +1,12 @@
 <img src="./src/images/desktop-preview.jpg" alt="home-page" style="height: 100px; width:100px;" />
 
-# Bundler Boiler Plate. 💫
+## Link. 🔗
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ebcedf81-50f5-40c1-a68e-1b2a50c6f293/deploy-status)](https://app.netlify.com/sites/article-preview-fm/deploys)
+
+[![Article Preview Component.](https://article-preview-fm.netlify.app/)
+
+# Article Preview Component
 
 - A boiler plate to start.
 
