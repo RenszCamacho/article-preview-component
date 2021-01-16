@@ -8,7 +8,7 @@
 
 # Article Preview Component
 
-- A boiler plate to start.
+- This is a Frontend Mentor Challenge, newbie-level. A cool challenge that I've really enjoyed it. Using Css Flex-box and some Css animation. Pure HTML, CSS.
 
 ### Clone the repository
 
@@ -39,4 +39,15 @@ npm run dev or yarn dev
 npm run build or yarn build
 ```
 
-# article-preview-component
+## Tools. ⚒️
+
+- HTML5.
+- CSS3.
+- ParcelJs(Bundler).
+- Sass(Css Pre-precesor).
+- Methodology/BEM(Css Especificity).
+- Git and Github.
+
+```
+
+```
