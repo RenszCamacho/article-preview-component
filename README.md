@@ -1,3 +1,5 @@
+<img src="./src/images/desktop-preview.jpg" alt="home-page" style="height: 100px; width:100px;" />
+
 # Bundler Boiler Plate. 💫
 
 - A boiler plate to start.
@@ -30,4 +32,5 @@ npm run dev or yarn dev
 #Build for Production
 npm run build or yarn build
 ```
+
 # article-preview-component
