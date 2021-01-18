@@ -26,7 +26,7 @@
   }
 
   &__header {
-    height: 20rem;
+    // height: 20rem;
 
     @include rwd(large) {
       height: inherit;
@@ -123,6 +123,28 @@
     background-color: $background;
     transition: all 250ms ease;
     cursor: pointer;
+    z-index: 10;
+    position: relative;
+  }
+
+  &__btn--active {
+    background-color: $secondary;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    z-index: 10;
+    position: relative;
+    transition: all 250ms ease;
+    cursor: pointer;
+
+    @include rwd(large) {
+      background-color: $primary;
+    }
+
+    svg path {
+      fill: #fff;
+    }
   }
 
   &__active {
