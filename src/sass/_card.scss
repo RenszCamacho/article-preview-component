@@ -182,7 +182,7 @@
     }
   }
 
-  &__item--social svg:hover {
+  &__item--social img:hover {
     animation: spin 300ms linear;
   }
 
@@ -191,8 +191,8 @@
 
     @include rwd(large) {
       position: absolute;
-      bottom: -68px;
-      right: 97px;
+      bottom: -63px;
+      right: 96px;
     }
   }
 
