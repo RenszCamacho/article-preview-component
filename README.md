@@ -15,8 +15,8 @@
 ### Install the dependencies
 
 ```bash
-git clone https://github.com/RenszCamacho/BundlerJs
-cd BundlerJs
+git clone https://github.com/RenszCamacho/article-preview-component
+cd article-preview-component
 ```
 
 ## Install the dependencies
