@@ -30,6 +30,7 @@
 
     @include rwd(large) {
       height: inherit;
+      width: 73rem;
     }
   }
 
@@ -186,15 +187,15 @@
     animation: spin 300ms linear;
   }
 
-  &__item:last-child {
-    margin-left: auto;
+  // &__item:last-child {
+  //   margin-left: auto;
 
-    @include rwd(large) {
-      position: absolute;
-      bottom: -63px;
-      right: 96px;
-    }
-  }
+  //   @include rwd(large) {
+  //     position: absolute;
+  //     bottom: -63px;
+  //     right: 96px;
+  //   }
+  // }
 
   &__description {
     text-transform: uppercase;
