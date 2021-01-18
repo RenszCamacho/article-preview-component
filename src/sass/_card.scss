@@ -30,7 +30,7 @@
 
     @include rwd(large) {
       height: inherit;
-      width: 73rem;
+      width: inherit;
     }
   }
 
@@ -186,16 +186,6 @@
   &__item--social img:hover {
     animation: spin 300ms linear;
   }
-
-  // &__item:last-child {
-  //   margin-left: auto;
-
-  //   @include rwd(large) {
-  //     position: absolute;
-  //     bottom: -63px;
-  //     right: 96px;
-  //   }
-  // }
 
   &__description {
     text-transform: uppercase;
