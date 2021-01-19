@@ -1,4 +1,4 @@
-<img src="./src/images/desktop-preview.jpg" alt="home-page" style="height: 100px; width:100px;" />
+<img src="./public/images/desktop-preview.jpg" alt="home-page" style="height: 100px; width:100px;" />
 
 ## Link. 🔗
 
